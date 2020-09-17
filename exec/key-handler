@@ -16,8 +16,8 @@ do
         fullpath='$(pwd)/$file'
         case "$1" in
         "w")
-                cp "$file" ~/.config/wall.jpg &&
-                xwallpaper --zoom "$HOME/.config/wall.jpg" ;;
+                cp "$file" ~/.config/wall.png &&
+                xwallpaper --zoom "$HOME/.config/wall.png" ;;
                 #notify-send -i "$HOME/.config/wall.jpg" "Wallpaper changed" ;;
         esac
 done
